@@ -3,6 +3,7 @@ package _01_LambdaExpression;
 /*
  * 参考: https://www.jianshu.com/p/8d7f98116693
  *
+ * Predicate接口:
  * Predicate接口适合用于过滤, 测试对象是否符合某个条件;
  * Predicate接口是一个函数式接口, 待实现的唯一抽象方法是boolean test(T t)方法, 所以可以使用lambda表达式;
  */
