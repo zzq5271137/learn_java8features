@@ -21,6 +21,8 @@ package _01_LambdaExpression;
  *        详见Usage5.java
  *    b). Predicate接口的进阶用法
  *        详见Usage6.java
+ * 5. 注意事项
+ *    详见Usage7.java
  */
 
 public class Intro {

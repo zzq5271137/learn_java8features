@@ -12,6 +12,14 @@ import java.util.List;
 import java.util.function.Predicate;
 
 public class Usage5 {
+    public static void filter(List<Integer> numbers, Predicate<Integer> condition) {
+        numbers.forEach(n -> {
+            if (condition.test(n)) {
+                System.out.println("大于0: " + n);
+            }
+        });
+    }
+
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(-1, -2, 0, 4, 7);
 
@@ -22,13 +30,5 @@ public class Usage5 {
 
         // 对于数组的迭代, 还可以使用StreamAPI的方式
         numbers.stream().filter(n -> n > 0).forEach(n -> System.out.println("大于0: " + n));
-    }
-
-    public static void filter(List<Integer> numbers, Predicate<Integer> condition) {
-        numbers.forEach(n -> {
-            if (condition.test(n)) {
-                System.out.println("大于0: " + n);
-            }
-        });
     }
 }
