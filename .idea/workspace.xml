@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="611e455f-09e1-4dad-910e-5844866bdc36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Java8Features/_01_LambdaExpression/Usage5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Java8Features/_01_LambdaExpression/Usage5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Java8Features/_01_LambdaExpression/Usage6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Java8Features/_01_LambdaExpression/Usage6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_01_LambdaExpression/Usage5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01_LambdaExpression/Usage5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_01_LambdaExpression/Usage6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01_LambdaExpression/Usage6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Java8Features/_02_StreamAPI/Intro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Java8Features/_02_StreamAPI/Intro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_02_StreamAPI/Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_02_StreamAPI/Usage5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,33 +85,7 @@
       <recent name="H:\IDEA_workspace\Learn_Java8Features\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Usage4">
-    <configuration name="Usage1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_StreamAPI.Usage1" />
-      <module name="Learn_Java8Features" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_02_StreamAPI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Usage3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_StreamAPI.Usage3" />
-      <module name="Learn_Java8Features" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_02_StreamAPI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Usage6">
     <configuration name="Usage4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_02_StreamAPI.Usage4" />
       <module name="Learn_Java8Features" />
@@ -126,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Usage5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_LambdaExpression.Usage5" />
+    <configuration name="Usage5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_StreamAPI.Usage5" />
       <module name="Learn_Java8Features" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_01_LambdaExpression.*" />
+          <option name="PATTERN" value="_02_StreamAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Usage6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_StreamAPI.Usage6" />
+      <module name="Learn_Java8Features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02_StreamAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +126,24 @@
       </method>
     </configuration>
     <configuration name="Usage7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_LambdaExpression.Usage7" />
+      <option name="MAIN_CLASS_NAME" value="_02_StreamAPI.Usage7" />
       <module name="Learn_Java8Features" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_01_LambdaExpression.*" />
+          <option name="PATTERN" value="_02_StreamAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Usage9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_StreamAPI.Usage9" />
+      <module name="Learn_Java8Features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02_StreamAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Usage4" />
-        <item itemvalue="Application.Usage3 (1)" />
-        <item itemvalue="Application.Usage1 (1)" />
+        <item itemvalue="Application.Usage6" />
+        <item itemvalue="Application.Usage9" />
         <item itemvalue="Application.Usage7" />
-        <item itemvalue="Application.Usage5" />
+        <item itemvalue="Application.Usage5 (1)" />
+        <item itemvalue="Application.Usage4" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +288,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586608679597</updated>
       <workItem from="1586608682706" duration="1008000" />
-      <workItem from="1586609716189" duration="10663000" />
+      <workItem from="1586609716189" duration="14034000" />
     </task>
     <servers />
   </component>
@@ -301,26 +300,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586611639946" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1586621752126">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1586625950622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586621752126" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1586621752126">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586625950622" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1586625950622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586621752126" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1586621752126">
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586625950622" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1586625950622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586621752126" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1586621752126">
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586625950622" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1586625950622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586621752126" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586625950622" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1586614018407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586614018407" />
+    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1586625900508">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1586625900508" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586620726200">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

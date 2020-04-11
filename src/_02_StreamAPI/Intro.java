@@ -41,6 +41,18 @@ package _02_StreamAPI;
  *        详见Usage4.java
  *    d). flatMap()方法
  *        详见Usage5.java
+ *    e). filter()方法
+ *        详见Usage6.java
+ *    f). reduce()方法
+ *        详见Usage7.java
+ *    g). collect()方法
+ *        详见Usage8.java
+ *    h). summaryStatistics()方法进行数值统计
+ *        详见Usage9.java
+ *    i). 其他方法
+ *        详见Usage10.java
+ *    j). 注意事项
+ *        详见Usage11.java
  */
 
 public class Intro {
