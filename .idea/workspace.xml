@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="611e455f-09e1-4dad-910e-5844866bdc36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Java8Features/_02_StreamAPI/Intro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Java8Features/_02_StreamAPI/Intro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_02_StreamAPI/Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Intro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_02_StreamAPI/Usage5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02_StreamAPI/Usage5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_Optional/Intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_Optional/Usage1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_Optional/Usage10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_Optional/Usage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_Optional/Usage3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_Optional/Usage4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_Optional/Usage5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_Optional/Usage6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_Optional/Usage7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_Optional/Usage8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_Optional/Usage9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_MethodReference/Intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_MethodReference/Usage1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_MethodReference/Usage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_MethodReference/Usage3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_MethodReference/Usage4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_MethodReference/Usage5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_04_MethodReference/Usage6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_01_LambdaExpression" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_03_Optional" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -77,21 +86,50 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_04_MethodReference" />
+      <recent name="_03_Optional" />
       <recent name="_02_StreamAPI" />
       <recent name="_01_LambdaExpression" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEA_workspace\Learn_Java8Features\src\_03_Optional" />
       <recent name="H:\IDEA_workspace\Learn_Java8Features\src\_01_LambdaExpression" />
       <recent name="H:\IDEA_workspace\Learn_Java8Features\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Usage6">
+  <component name="RunManager" selected="Application.Usage5">
+    <configuration name="Usage10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_03_Optional.Usage10" />
+      <module name="Learn_Java8Features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_03_Optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Usage2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_04_MethodReference.Usage2" />
+      <module name="Learn_Java8Features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_04_MethodReference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Usage4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_StreamAPI.Usage4" />
+      <option name="MAIN_CLASS_NAME" value="_04_MethodReference.Usage4" />
       <module name="Learn_Java8Features" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_02_StreamAPI.*" />
+          <option name="PATTERN" value="_04_MethodReference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,38 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Usage5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_StreamAPI.Usage5" />
+    <configuration name="Usage5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_04_MethodReference.Usage5" />
       <module name="Learn_Java8Features" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_02_StreamAPI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Usage6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_StreamAPI.Usage6" />
-      <module name="Learn_Java8Features" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_02_StreamAPI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Usage7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_StreamAPI.Usage7" />
-      <module name="Learn_Java8Features" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_02_StreamAPI.*" />
+          <option name="PATTERN" value="_04_MethodReference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +151,11 @@
       </method>
     </configuration>
     <configuration name="Usage9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_StreamAPI.Usage9" />
+      <option name="MAIN_CLASS_NAME" value="_03_Optional.Usage9" />
       <module name="Learn_Java8Features" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_02_StreamAPI.*" />
+          <option name="PATTERN" value="_03_Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Usage6" />
-        <item itemvalue="Application.Usage9" />
-        <item itemvalue="Application.Usage7" />
-        <item itemvalue="Application.Usage5 (1)" />
+        <item itemvalue="Application.Usage5" />
         <item itemvalue="Application.Usage4" />
+        <item itemvalue="Application.Usage2" />
+        <item itemvalue="Application.Usage10" />
+        <item itemvalue="Application.Usage9" />
       </list>
     </recent_temporary>
   </component>
@@ -289,6 +301,7 @@
       <updated>1586608679597</updated>
       <workItem from="1586608682706" duration="1008000" />
       <workItem from="1586609716189" duration="14034000" />
+      <workItem from="1586690151068" duration="8039000" />
     </task>
     <servers />
   </component>
@@ -296,26 +309,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586611639946">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586693639926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586611639946" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1586625950622">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586693639926" />
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1586698014902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586625950622" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1586625950622">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586698014902" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1586698014902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586625950622" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1586625950622">
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586698014902" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1586698014902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586625950622" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1586625950622">
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586698014902" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1586698014902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586625950622" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586698014902" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1586614018407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
