@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="611e455f-09e1-4dad-910e-5844866bdc36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_05_DefaultMethod/Intro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Java8Features/_04_MethodReference/Intro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Java8Features/_04_MethodReference/Intro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Java8Features/_04_MethodReference/Usage5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Java8Features/_04_MethodReference/Usage5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lombok.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practise/Practise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practise/Practise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learn_Java8Features.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Java8Features.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +57,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_03_Optional" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/practise" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -77,12 +78,14 @@
       <recent name="_01_LambdaExpression" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEA_workspace\Learn_Java8Features\src\practise" />
+      <recent name="H:\IDEA_workspace\Learn_Java8Features\lib" />
       <recent name="H:\IDEA_workspace\Learn_Java8Features\src\_03_Optional" />
       <recent name="H:\IDEA_workspace\Learn_Java8Features\src\_01_LambdaExpression" />
       <recent name="H:\IDEA_workspace\Learn_Java8Features\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Intro">
+  <component name="RunManager" selected="Application.Practise2">
     <configuration name="Intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_05_DefaultMethod.Intro" />
       <module name="Learn_Java8Features" />
@@ -96,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Usage10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_03_Optional.Usage10" />
+    <configuration name="Practise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practise.Practise1" />
       <module name="Learn_Java8Features" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_03_Optional.*" />
+          <option name="PATTERN" value="practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Usage2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_MethodReference.Usage2" />
+    <configuration name="Practise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practise.Practise2" />
       <module name="Learn_Java8Features" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04_MethodReference.*" />
+          <option name="PATTERN" value="practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practise2" />
+        <item itemvalue="Application.Practise1" />
         <item itemvalue="Application.Intro" />
         <item itemvalue="Application.Usage5" />
         <item itemvalue="Application.Usage4" />
-        <item itemvalue="Application.Usage2" />
-        <item itemvalue="Application.Usage10" />
       </list>
     </recent_temporary>
   </component>
@@ -287,6 +290,7 @@
       <workItem from="1586608682706" duration="1008000" />
       <workItem from="1586609716189" duration="14034000" />
       <workItem from="1586690151068" duration="8780000" />
+      <workItem from="1586703934968" duration="3737000" />
     </task>
     <servers />
   </component>
@@ -298,26 +302,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586698627574" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1586698949195">
+    <state x="570" y="167" key="FileChooserDialogImpl" timestamp="1586703967624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586698949195" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1586698949195">
+    <state x="570" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586703967624" />
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1586707675927">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586698949195" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1586698949195">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586707675927" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1586707675927">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586698949195" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1586698949195">
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586707675927" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1586707675926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586698949195" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1586614018407">
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586707675926" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1586707675927">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586614018407" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586707675927" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1586703969755">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586703969755" />
     <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1586625900508">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
