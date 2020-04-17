@@ -11,6 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 class StudentFilterException extends RuntimeException {
     public StudentFilterException() {
@@ -50,10 +51,34 @@ public class Practise2 {
         return passNames;
     }
 
+    // 写法三
+    public static List<String> stuFilter3(List<Student> students, Predicate<Integer> agePredicate1,
+                                          Predicate<Integer> agePredicate2) {
+        return students.stream()
+                .filter(s -> Optional.ofNullable(s)
+                        .filter(s1 -> agePredicate1.and(agePredicate2).test(s1.getAge()))
+                        .isPresent())
+                .map(sp -> Optional.ofNullable(sp)
+                        .map(s1 -> s1.getName() + "_pass")
+                        .orElseThrow(StudentFilterException::new))
+                .collect(Collectors.toList());
+    }
+
+    // 写法四
+    public static List<String> stuFilter4(List<Student> students, Predicate<Integer> agePredicate1,
+                                          Predicate<Integer> agePredicate2) {
+        return students.stream()
+                .filter(s -> Optional.ofNullable(s)
+                        .filter(s1 -> agePredicate1.and(agePredicate2).test(s1.getAge()))
+                        .isPresent())
+                .map(sp -> sp.getName() + "_pass")
+                .collect(Collectors.toList());
+    }
+
     public static void main(String[] args) {
         List<Student> students = init();
         System.out.println("过滤前: " + students);
-        List<String> passNames = stuFilter2(students, age -> age > 18, age -> age < 25);
+        List<String> passNames = stuFilter4(students, age -> age > 18, age -> age < 25);
         System.out.println("过滤后的学生名字: " + passNames);
     }
 }
