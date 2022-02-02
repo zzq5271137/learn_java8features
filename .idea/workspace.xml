@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="611e455f-09e1-4dad-910e-5844866bdc36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Learn_Java8Features.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learn_java8features.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,18 +68,18 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="H:\IDEA_workspace\Learn_Java8Features\src\practise" />
+      <recent name="H:\IDEA_workspace\Learn_Java8Features\lib" />
+      <recent name="H:\IDEA_workspace\Learn_Java8Features\src\_03_Optional" />
+      <recent name="H:\IDEA_workspace\Learn_Java8Features\src\_01_LambdaExpression" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_04_MethodReference" />
       <recent name="_03_Optional" />
       <recent name="_02_StreamAPI" />
       <recent name="_01_LambdaExpression" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\IDEA_workspace\Learn_Java8Features\src\practise" />
-      <recent name="H:\IDEA_workspace\Learn_Java8Features\lib" />
-      <recent name="H:\IDEA_workspace\Learn_Java8Features\src\_03_Optional" />
-      <recent name="H:\IDEA_workspace\Learn_Java8Features\src\_01_LambdaExpression" />
-      <recent name="H:\IDEA_workspace\Learn_Java8Features\src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Practise2">
@@ -144,17 +144,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -304,7 +293,10 @@
       <workItem from="1586751229962" duration="116000" />
       <workItem from="1587123542152" duration="973000" />
       <workItem from="1587125409143" duration="24000" />
-      <workItem from="1627527892670" duration="76000" />
+      <workItem from="1627527892670" duration="618000" />
+      <workItem from="1627613275034" duration="8000" />
+      <workItem from="1627613611157" duration="22000" />
+      <workItem from="1643771617087" duration="128000" />
     </task>
     <servers />
   </component>
@@ -321,5 +313,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
